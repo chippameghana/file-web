@@ -1,0 +1,216 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    /* background-image:linear-gradient(315deg,#5078f2 0%,#efeeef);  */
+}
+.navbar{
+    height: 60px;
+    width: auto;
+    background-image:linear-gradient(315deg,#5078f2 0%,#efeeef); 
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.tags{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-left:50%;
+    padding-right:3%;
+    height:50px;
+    width: auto;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+span{
+    color:#5078f2
+}
+li{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    list-style-type: none;
+}
+.text{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10%;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(315deg,#5078f2 0%,#efeeef); 
+    height: 100%;
+}
+h4{
+    font-size: 25px;
+    padding-right: 80%;
+}
+.content h2{
+    font-size: 35px;
+    padding-right: 50%;
+}
+.pic{
+    padding-right: 50px;
+}
+.connect form{
+height: 500px;
+position: relative;
+max-height:250px; 
+width: auto;
+}
+.second{
+    background-image:linear-gradient(315deg,#5078f2 0%,#efeeef);  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+}
+.content-text span{
+    color: #0638cd;  
+}
+.content-text h2{
+    padding-left: 0%;
+    font-size: 30px;
+}
+.content-text p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-weight:bold; 
+    padding-left: 35%;
+    padding-right: 30%;
+}
+.content-text button{
+    color:white;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 175);
+}
+.pic2{
+    padding-left: 30px;
+}
+.Certification{
+    width: 100%;
+    padding: 15px 0;
+    background-image:linear-gradient(315deg,#5078f2 0%,#efeeef);  
+}
+.heading{
+   text-align: center;
+   width: 100%;
+   font-size: 75px;
+   margin: auto;
+}
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.subject{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    padding:25px 30px ;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    align-items: center;
+    color: #efeeef;
+}
+.subject p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-weight:bold; 
+}
+.certificate{
+    color:white;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(85, 85, 211);
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+.subject h4{
+    padding-bottom: 20px;
+}
+.third{
+    width: 100%;
+    padding: 10px 0;
+    padding-bottom: 10px;
+    background-image:linear-gradient(315deg,#5078f2 0%,#efeeef);  
+    gap: 25px;
+}
+.skills{
+    font-size: 70px;
+    text-align: left;
+    width: 100px;
+    margin-left:30px auto;
+}
+.courses{
+    font-size: 20px;
+    text-align: left;
+    width: 1200px;
+    margin-left:30px auto;
+}
+.bar{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.bar .bar1{
+    background-color: blue;
+    border:2px solid transparent ;
+    border-radius: 30px;
+    width: 70%;
+}
+.bar .bar2{
+    background-color: blue;
+    border:2px solid transparent ;
+    border-radius: 30px;
+    width: 70%;
+}
+.bar .bar3{
+    background-color: blue;
+    border:2px solid transparent ;
+    border-radius: 30px;
+    width: 50%;
+}
+.bar .bar4{
+    background-color: blue;
+    border:2px solid transparent ;
+    border-radius: 30px;
+    width: 80%;
+}
+.bar .bar5{
+    background-color: blue;
+    border:2px solid transparent ;
+    border-radius: 30px;
+    width: 20%;
+}
+
+
